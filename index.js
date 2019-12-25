@@ -1,4 +1,3 @@
-
 const createPlanetDiagramRight = (diameter, color) => {
   const planetDiagramRight = document.createElement('div');
   planetDiagramRight.style.position = 'absolute';
@@ -51,7 +50,7 @@ const createPlanetDiagramLeftInside = (diameter, color) => {
   document.getElementById('planet-diagram-container').appendChild(planetDiagramLeftInside);
 }
 
-const createPlanetDiagramContainer = (diameter, parent, leftColor, leftInsideColor, rightColor) => {
+module.exports.createPlanetDiagramContainer = (diameter, parent, leftColor, leftInsideColor, rightColor) => {
   const planetDiagramContainer = document.createElement('div')
   planetDiagramContainer.style.width = `${diameter}px`;
   planetDiagramContainer.style.height = `${diameter}px`;
@@ -67,7 +66,7 @@ const createPlanetDiagramContainer = (diameter, parent, leftColor, leftInsideCol
   createPlanetDiagramLeftInside(500, leftInsideColor);
 }
 
-const createDiscDescriptionContainer = (parent) => {
+module.exports.createDiscDescriptionContainer = (parent) => {
   const discDescriptionContainer = document.createElement('div');
 
   discDescriptionContainer.id = 'planet-diagram-description';
@@ -75,7 +74,7 @@ const createDiscDescriptionContainer = (parent) => {
   parent.appendChild(discDescriptionContainer);
 }
 
-const createDisc = (diameter, discDiameter, color, id, dotDiameter, text) => {
+module.exports.createDisc = (diameter, discDiameter, color, id, dotDiameter, text) => {
   const disc = document.createElement('div');
   const discMirror = document.createElement('div');
   const discDescriptionDot = document.createElement('div');
