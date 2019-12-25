@@ -2,6 +2,9 @@
 Download as package from npm:
 ```npm i aleksieiev-planet-diagram```
 
+
+![example](example.jpg)
+
 To create your planet diagram you simply need to call only 3 functions.
 
 First of all define parent for your Planet Diagram and Diagram Description.
