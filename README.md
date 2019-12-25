@@ -52,7 +52,7 @@ There are six necessary arguments for disc:
 2) Disc Diameter in relative for Planet Diameter value (from 0 to 0.8, example: 0.56)
 3) Color of the Disc
 4) Id
-5) Diameter(or Width/Height)
+5) Diameter of description dots(or Width/Height)
 6) Description text
 
 ```
