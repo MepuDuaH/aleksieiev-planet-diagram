@@ -20,7 +20,7 @@ const parent = document.getElementsByTagName('body')[0];
 const diameter = 500;
 ```
 
-Now you need to create a container for Planet Diagram. There is five necessary arguments:
+Now you need to create a container for Planet Diagram. There are five necessary arguments:
 1) Planet diameter;
 2) Container Parent(In which block of HTML your Planet Diagram will be pasted, if Parent has not only Planet Diagram as a child, Planet Diagram will be pasted as the last child of the Parent)
 3) Color of shadowed part of your Planet Diagram;
